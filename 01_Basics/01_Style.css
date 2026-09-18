@@ -1,0 +1,17 @@
+.orangeBox {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    position: flex;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.fixBox {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    margin-right: 0px;
+    margin-top: 0px;
+}
