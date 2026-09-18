@@ -8,10 +8,10 @@
 }
 
 .fixBox {
-    background-color: red;
+    background-color: pink;
     width: 100px;
     height: 100px;
     position: fixed;
-    margin-right: 0px;
-    margin-top: 0px;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
