@@ -2,16 +2,47 @@
     background-color: orange;
     width: 100px;
     height: 100px;
-    position: flex;
-    margin-right: 0px;
-    margin-bottom: 0px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
 
 .fixBox {
     background-color: pink;
     width: 100px;
     height: 100px;
-    position: fixed;
-    justify-content: flex-end;
-    align-items: flex-end;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.container {
+    height: 300px;
+    width: 460px;
+    background-color: blue;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.textbox {
+    padding: 20px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 370px;
+    left: 20px;
+    background-color: green;
+    height: 150px;
+    width: 460px;
+}
+
+.box {
+    background-color: red;
+    height: 50px;
+    width: 50px;
 }
